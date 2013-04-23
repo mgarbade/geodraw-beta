@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/undo"
+        android:title="Undo"
+        android:titleCondensed="Undo">
+    </item>
+    <item
+        android:id="@+id/change_paint_id"
+        android:title="Change Paint"
+        android:titleCondensed="Paint">
+        <menu>
+            <item
+                android:id="@+id/p_white_id"
+                android:title="White"
+                android:titleCondensed="White">
+            </item>
+            <item
+                android:id="@+id/p_blue_id"
+                android:title="Blue"
+                android:titleCondensed="Blue">
+            </item>
+            <item
+                android:id="@+id/p_lblue_id"
+                android:title="Light Blue"
+                android:titleCondensed="Light Blue">
+            </item>
+            <item
+                android:id="@+id/p_green_id"
+                android:title="Green"
+                android:titleCondensed="Green">
+            </item>
+            <item
+                android:id="@+id/p_pink_id"
+                android:title="Pink"
+                android:titleCondensed="Pink">
+            </item>
+            <item
+                android:id="@+id/p_red_id"
+                android:title="Red"
+                android:titleCondensed="Red">
+            </item>
+            <item
+                android:id="@+id/p_yellow_id"
+                android:title="Yellow"
+                android:titleCondensed="Yellow">
+            </item>
+            <item
+                android:id="@+id/p_black_id"
+                android:title="Black"
+                android:titleCondensed="Black">
+            </item>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/change_background_id"
+        android:title="Change Background"
+        android:titleCondensed="Background">
+        <menu>
+            <item
+                android:id="@+id/b_custom_id"
+                android:title="Import"
+                android:titleCondensed="Import">
+            </item>
+            <item
+                android:id="@+id/b_white_id"
+                android:title="White"
+                android:titleCondensed="White">
+            </item>
+            <item
+                android:id="@+id/b_blue_id"
+                android:title="Blue"
+                android:titleCondensed="Blue">
+            </item>
+            <item
+                android:id="@+id/b_lblue_id"
+                android:title="Light Blue"
+                android:titleCondensed="Light Blue">
+            </item>
+            <item
+                android:id="@+id/b_green_id"
+                android:title="Green"
+                android:titleCondensed="Green">
+            </item>
+            <item
+                android:id="@+id/b_pink_id"
+                android:title="Pink"
+                android:titleCondensed="Pink">
+            </item>
+            <item
+                android:id="@+id/b_red_id"
+                android:title="Red"
+                android:titleCondensed="Red">
+            </item>
+            <item
+                android:id="@+id/b_yellow_id"
+                android:title="Yellow"
+                android:titleCondensed="Yellow">
+            </item>
+            <item
+                android:id="@+id/b_black_id"
+                android:title="Black"
+                android:titleCondensed="Black">
+            </item>
+        </menu>
+    </item>
+	<item
+        android:id="@+id/Width"
+        android:title="Width"
+        android:titleCondensed="Width">
+        <menu>
+            <item
+		        android:id="@+id/verysmall"
+		        android:title="very small"
+		        android:titleCondensed="very small">
+            </item>
+            <item
+		        android:id="@+id/small"
+		        android:title="small"
+		        android:titleCondensed="small">
+            </item>
+            <item
+		        android:id="@+id/medium"
+		        android:title="medium"
+		        android:titleCondensed="medium">
+            </item>
+            <item
+		        android:id="@+id/large"
+		        android:title="large"
+		        android:titleCondensed="large">
+            </item>
+			<item
+		        android:id="@+id/verylarge"
+		        android:title="very large"
+		        android:titleCondensed="very large">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/options"
+        android:title="Options"
+        android:titleCondensed="Options">
+        <menu>
+            <item
+		        android:id="@+id/save_drawing"
+		        android:title="Save Drawing"
+		        android:titleCondensed="Save">
+            </item>
+            <item
+		        android:id="@+id/clear_all"
+		        android:title="Clear all"
+		        android:titleCondensed="Clear all">
+            </item>
+        </menu>
+    </item>
+</menu>
